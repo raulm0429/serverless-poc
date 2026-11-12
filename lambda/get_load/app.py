@@ -83,7 +83,7 @@ def handler(event, context):
                     "message": "Load already exists"
                 })
 
-            print(f"DynamoDB error: {str(e)}")
+            print(f"DynamoDB error: {e!s}")
 
             return response(500, {
                 "message": "Internal server error"
