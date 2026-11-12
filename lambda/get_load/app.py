@@ -1,7 +1,7 @@
 import json
 import os
-import boto3
 
+import boto3
 from botocore.exceptions import ClientError
 
 dynamodb = boto3.resource("dynamodb")
